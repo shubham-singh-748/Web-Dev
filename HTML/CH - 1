@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Books to read</h1>
+    <!-- <h1
+    </h1> -->
+    <h2>This is head2</h2>
+    <h3>This is head3</h3>
+    <h4>This is head4</h4>
+    <h5>This is head5</h5>
+    <h6>This is head6</h6>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta eligendi sapiente consequatur sed ratione saepe, at repudiandae alias? Ducimus ratione quas quis, doloremque error earum harum aliquam tenetur hic aliquid.
+    <p>There are a lot of books to read</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolore non inventore velit. Inventore, ipsum quaerat hic dolores pariatur consequuntur aliquam deserunt quod veritatis quia, error in eaque harum. Molestias ratione, tempora vero facilis inventore doloremque et modi tenetur odio. Quia delectus voluptatibus nemo id sit a ex! Iste magnam laudantium id laborum voluptatem vel ipsam provident ratione doloremque eaque fugit a voluptate excepturi nostrum molestias debitis aut repellat quia odio, libero aspernatur! Minima iure accusantium nisi maiores porro, delectus rem quis eius tempore voluptatum cumque. Labore, ducimus voluptatum consectetur accusamus culpa quis optio architecto mollitia fuga ipsam ullam aperiam?
+    <br>
+    <br>
+    <!-- Examples of absolute link -->
+    <a href="/about.html">Click me</a>
+    <br>
+    <a href="https://www.mozillafirefox.com">Mozilla Firefox</a>
+    <br>
+
+    <!-- For Image reference -->
+    <img src="https://media.istockphoto.com/id/492596005/photo/mahabodhi2.jpg?s=1024x1024&w=is&k=20&c=LPsmKW7xpievPSNMLrg56M8f92LQsHLXQnj8KCuK7RM=" alt="Temple Image" width="290">
+
+    <br>
+    <!-- About Bold, Italic & Underline -->
+    <b>This is Bold</b>
+    <br>
+    <i>This is Italic</i>
+    <br>
+    <u>This is Underline</u>
+    <br>
+
+    <!-- ABOUT BIG AND SMALL CHARACTERS -->
+    <big>This is BIG</big>
+    <br>
+    <small>This is SMALL</small>
+    <br> <br> <br>
+
+    <!-- SUBSCRIPT AND SUPERSCRIPT -->
+    Chemical Formula of Carbon Dioxide:-
+    <p>CO<sub>2</sub></p>
+    Maths Formula:-
+    <p>(a+b)<SUp>2</SUp> = a<sup>2</sup> + b <sup>2</sup> + 2ab</p>
+    <br>
+
+    <!-- USE AS IT IS CHARACTERS USING PRETAGS -->
+    <pre>C++ Get Started
+To start using C++, you need two things:
+
+    A text editor, like Notepad, to write C++ code
+    A compiler, like GCC, to translate the C++ code into a language that the computer will understand
+
+There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).</pre>
+</body>
+</html>

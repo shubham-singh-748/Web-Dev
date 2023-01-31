@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            Home 
+            About
+        </nav>
+        This is the header
+        <main>
+            <!-- <p>This is the main paragraph</p> -->
+            <section>
+                <a href="https://www.google.com"target="_main">
+                    <img src="/home/shubham/Downloads/temple.jfig" alt="Alright">
+                    <br>
+                    Go to Google</a>
+            </section>
+            <DIV>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+
+                </ul>
+                <footer>My favourite sites</footer>
+                <a href="https://www.google.com">Google</a><br>
+                <a href="https://www.github.com">Github</a><br>
+                <a href="https://www.atlassian.com">Atlassian</a><br>
+                <a href="https://www.audi.com">Audo Automobiles</a>
+            </DIV>
+            <section>
+                <div>
+                    <h1>I love html</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro facilis modi quas explicabo quam, est, odio eum nesciunt unde sit ipsum cumque animi fugiat. Deserunt numquam labore harum iure accusamus!</p>
+
+                </div>
+                <!-- SPAN IS AN INLINE ELEMENT -->
+                <span>
+                    I am a span tag
+                </span>
+                <br>
+                <span>
+                    I am an another span tag
+                </span>
+            </section>
+        </main>
+        <footer>
+            This is the Footer
+        </footer>
+    </header>
+</body>
+</html>

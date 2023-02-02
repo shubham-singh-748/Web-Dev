@@ -1,0 +1,91 @@
+///////ABOUT TABLES////////
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice for Tables</title>
+  </head>
+  <body>
+    <div>
+      <table>
+        <tr>
+          <th>S.No  </th>
+          <th>Player's Name   </th>
+          <th>Performance   </th>
+          <th>Score    </th>
+        </tr>
+
+        <tr>
+          <th>1.</th>
+          <th>Subhman Gill</th>
+          <th>Average</th>
+          <th>778</th>
+        </tr>
+        <tr>
+          <th>2.</th >
+          <th>MS. Dhoni</th>
+          <th>Good</th>
+          <th>856</th>
+        </tr>
+        <tr>
+          <th>3.</th>
+          <th>Virat Kohli</th>
+          <th>Best</th>
+          <th>912</th>
+        </tr>
+        <tr>
+            <th>4.</th>
+            <th>Rohit Sharma</th>
+            <th>Quite Better</th>
+            <th>902</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
+
+
+//////ABOUT FORMS////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set</title>
+</head>
+<body>
+    <form action="Form.php">
+        Name:- <input type=""placeholder="Enter your name="""><br>
+        <br>
+        Email:- <input type=""placeholder="Enter Your Email id"><br>
+        <br>
+        How did you hear about us?<br>
+        <select name="" id="">
+        <option value="Select one of the following">Select one of the following</option>
+        <option value="">Social media</option>
+        <option value="">Freinds</option>
+        <option value="">Relatives</option>
+        </select><br><br>
+        Phone Number:- <input type="Enter Your Contact No"><br>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your address"></textarea>
+        <div>
+            <p>What type of vacation trip are you thinking of?</p>
+        <ul>
+            <li>CRUISE</li>
+            <li>HOTEL</li>
+            <li>RENTAL CAR NEEDED</li>
+        </ul>
+        <ol>
+            <li>CRUISE</li>
+            <li>HOTEL</li>
+            <li>RENTAL CAR NEEDED</li>
+        </ol>
+        </div>
+    </form>
+</body>
+</html>

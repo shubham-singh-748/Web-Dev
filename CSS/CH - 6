@@ -1,0 +1,96 @@
+
+
+/*------------CSS FLEXBOX-----------*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS - 6</title>
+    <style>
+        .container{
+            /* border: 2px black; */
+            display: flex;
+            flex-direction: top;
+        }
+      .box1 {
+        height: 134px;
+        width: 134px;
+        background-color: brown;
+        /* float: right; */
+        border: 2px solid black;
+      }
+      .box2 {
+        height: 134px;
+        width: 134px;
+        background-color: aqua;
+        /* float: right; */
+        border: 2px solid black;
+    }
+    li{
+        /* list-style: none; */
+        /* display: inline; */
+        display: inline-block;
+        text-align: center;
+        font-size: larger;
+        /* padding: 23px; */
+        height: 24px;
+        width: 134px;
+
+    }
+    header{
+        background-color: black;
+        color: whitesmoke;
+    }
+    .left{
+        /* height: 80vh;
+        width: 40vh; */
+         height: 330px;
+        width: 250px;
+        background-color: yellowgreen;
+        font-size: larger;
+        display: inline-block;
+    }
+    .right{
+         /* width: 40vh; */
+         /* height: 80vh; */
+        height: 330px;
+        width: 250px;
+        background-color: blueviolet;
+        font-size: larger;
+        display: inline-block;
+        
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header><div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    </div><div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+    Eius repudiandae, vel, illum vero labore dicta asperiores eaque dolores fugiat 
+    voluptates dolore delectus, alias deleniti aspernatur animi sint quidem odit cum! 
+    Est non, tempora hic quisquam tenetur dolorem at sapiente veritatis sunt enim adipisci, 
+    iusto ex!</div><div class="right">Lorem ipsum dolor sit amet consectetur adipisicing 
+    elit. Vel maxime doloribus, doloremque esse nihil consequatur sed quam ex dolore porro 
+    expedita autem quis reprehenderit velit voluptate accusamus minima quos unde quaerat, 
+    ea perferendis modi.</div>
+  </body>
+</html>

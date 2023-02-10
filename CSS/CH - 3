@@ -1,0 +1,55 @@
+
+/*---------CSS BOX MODELS--------*/
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set - 3</title>
+    <style>
+        *{
+            margin: 30;
+            padding: 40;
+        }
+        .content{
+            height: 144px;
+            background-color: brown;
+        }
+        header{
+            margin: 34px;
+            padding: 45px;
+            color: aqua;
+            background-color: blueviolet;
+        }
+        footer{
+            /* background-color: ; */
+            background-color: hotpink;
+        }
+        .center{
+            color: teal;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="content">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident ipsam est 
+        nostrum facilis. Commodi atque sint asperiores, perspiciatis eaque accusamus voluptatibus 
+        expedita iusto quis nemo tempore nostrum maiores fugit corrupti deleniti vero quaerat 
+        nam minus maxime modi soluta. Nostrum suscipit numquam quidem dolorem beatae nulla esse 
+        sequi similique velit! Quos quia doloribus expedita velit!
+    </div><br>
+    <footer>
+        <p class="center">copyright &copy; sportsmania007</p>
+    </footer>
+    <!-- <div id="for"></div> -->
+</body>
+</html>

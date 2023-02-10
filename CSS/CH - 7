@@ -1,0 +1,66 @@
+
+
+/*---------------CSS GRID & MEDIA QUERIES-------------*/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set-7</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            display: inline-grid;
+            grid-template-columns: auto auto;
+
+
+        }
+        ul li{
+            list-style: none;
+            margin: 0 23px;
+            padding: 22px 0;
+        }
+        header{
+            background-color: black;
+            color: wheat;
+        }
+        body{
+            background-color: green;
+        }
+        @media screen and (max-width: 800px;){
+            body{
+                background-color: yellow;
+            }
+        }
+        @media screen and (max-width: 400px) {
+            body{
+                background-color: brown;
+            }
+        }
+    </style>
+</head>
+<body>
+     <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+            </ul>
+        </nav>
+     </header>
+     <div class="container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+        Magni cumque perferendis magnam quis. Omnis consequatur totam 
+        nostrum corporis sapiente et, porro aut maiores autem quisquam minima 
+        assumenda ab soluta nesciunt modi ratione dolores, eius amet 
+        quasi quia numquam. Quam unde cum eius totam vitae porro facere 
+        non neque officiis laboriosam ex, aliquam magni ratione, maiores quo!
+     </div>
+</body>
+</html>

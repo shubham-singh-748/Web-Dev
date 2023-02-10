@@ -1,0 +1,47 @@
+
+
+//ABOUT COLORS AND BACKGROUND.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Set ch-2 CSS</title>
+    <style>
+        ul{
+            background-color: black;
+            color: white;
+            width: 51px;
+            height: 44px;
+        }
+        .main{
+            background-color: darkseagreen;
+            color: darkred;
+        }
+        body{
+            width: 389px;
+            height: 456px;
+            background-image: url(Snow-Predator-Tiger-iPhone-Wallpaper.jpg);
+            background-size: 389px 456px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <div class="main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eaque aliquid iusto ipsum hic fugit magnam in recusandae obcaecati quibusdam, commodi iste delectus sequi quo nihil cum laborum fugiat minus rem nam quisquam velit pariatur. Molestias accusantium debitis incidunt? Tempore aliquam nam voluptatibus architecto vel atque ad officiis harum libero nostrum, excepturi explicabo quisquam illum voluptate mollitia, aliquid eligendi quam sunt fuga aut numquam corrupti!</div>
+    <div class="body"></div>
+   
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+
+
+/*----------------LOOPS---------------*/
+
+
+
+const fruits = ['g', 'h', 'j', 'i', 'k', 'l', 'o', 't', 'r', 'w', 's']
+for(let i=0;i<fruits.length; ++i){
+  console.log(fruits[i])
+}
+
+for(const fruit of fruits){
+  console.log(fruit)
+}
+
+const number=[1, 2, 3, 4, 5, 6, 7, 8, 9]
+let result = []
+
+for(const numbe of number){
+  result.push(numbe*2)
+}
+console.log(result)
+
+const double = (numbers)=>{
+  let result = []
+  for(const number of numbers){
+    result.push(number**2)
+  }
+  return result
+}
+console.log(double([1, 2, 3, 4, 5, 6, 7, 8]))
+
+const howManyLetters = () => {
+  const phrase='hey what are you doing, did you complete your javascript course, complete it as soon as possible'
+
+  for(const letter of phrase){
+    console.log(letter)
+  }
+}
+howManyLetters()
+
+
+[1, 2, 3, 4]
+sum=0;
+const sumArr = (numbers) => {
+  for(const number of numbers){
+    sum+=number
+  }
+  return {sum}
+}
+const num=[1, 2, 3, 4]
+console.log(sumArr(num))
+
+let frequency={}
+const letterfrequency = (phrase) =>{
+  console.log(phrase)
+  for(const letter of phrase){
+    if(letter in frequency)frequency[letter]++
+    else frequency[letter]=1
+  }
+  return frequency
+}
+console.log(letterfrequency('hey, how are you doing'))
+
+const wordfrequency = (phrase) =>{
+  const words = phrase.split(' ')
+  return letterfrequency(words)
+}
+const userInput = prompt('Write your text')
+console.log(wordfrequency(userInput))
+
+const hourss = prompt('Enter an hour')
+function howManySeconds(hours) {
+  // Your function should return an integer
+  // of how many seconds are in the hour
+  
+  return hourss*60*60
+}
+console.log(howManySeconds(hourss))

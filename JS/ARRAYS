@@ -1,0 +1,13 @@
+// ARRAYS
+const gr=['re', 'ree', 'reee', 'reeee']
+console.log(gr)
+console.log(gr[0])
+console.log(gr[1])
+console.log(gr[2])
+console.log(gr[3])
+gr.push('srrr')
+gr.push('tvf')
+console.log(gr)
+console.log(gr.slice(3, 6))
+console.log(gr.indexOf('srrr'))
+console.log(gr.length)

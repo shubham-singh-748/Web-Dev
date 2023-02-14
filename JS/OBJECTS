@@ -1,0 +1,51 @@
+
+
+/*--------------------OBJECTS---------------*/
+
+
+
+const person={
+  name:'Shubham',
+  shirt:'white',
+  profession: 'student',
+  hair:'black',
+  hobby:'reading',
+  phone: 384236477
+}
+console.log(person.name, person.shirt, person.phone)
+console.log(person['name'], person['shirt'], person['phone'])
+console.log(person)
+
+
+// es6 arrow function(2 arguments)
+// objects
+// template literals
+const introducer=(name, shirt) =>{
+  const person={
+    name: name,
+    shirt: shirt
+  }
+  const intro=`Hi my name is ${person.name} and i wear ${person.shirt} color shirt.`
+  return intro
+}
+
+console.log(introducer('shubham', 'yellow'))
+
+const sayhisabout=(name, shirt)=>{
+  const person={
+  name: name,
+  shirt: shirt,
+  assets: 100000,
+  liabilities: 5000,
+  NetWorth: function () {
+    return this.assets-this.liabilities
+  }
+}
+  const saysomethingabout=`The actor's name is ${person.name} and the color of his shirt is ${person.shirt}, and his netwroth is $${person.assets - person.liabilities}`
+  
+  const saysomethingabout=`The actor's name is ${person.name} and the color of his shirt is ${person.shirt}. and his netwroth is $${person.NetWorth()}`
+  
+  return saysomethingabout
+}
+
+console.log(sayhisabout('Leonardo Di Caprio', 'Black'))

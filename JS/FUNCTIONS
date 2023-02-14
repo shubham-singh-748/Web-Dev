@@ -1,0 +1,25 @@
+
+/*---------------FUNCTIONS-----------*/
+
+
+function add(a,b){
+  return a+b
+}
+
+function sub(a, b){
+  return a-b
+}
+
+function div(a, b){
+  return a/b
+}
+
+function mul(a, b){
+  return a*b
+}
+
+console.log('hello from the SUM exercise')
+console.log(add(76, 34))
+console.log(sub(76, 34))
+console.log(Math.ceil(div(76, 34)))
+console.log(mul(76, 34))

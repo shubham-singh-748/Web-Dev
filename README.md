@@ -1,3 +1,3 @@
 # Web-Dev
 This is personal repo of my step-by-step learning in web develpment.
-And i keep uploading notes and codes.
+And I keep uploading notes and codes on web development.

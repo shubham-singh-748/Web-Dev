@@ -1,1 +1,54 @@
+/*-----------------MAP--------------*/
 
+let result = [1, 2, 3, 4].map(number => number*2)
+console.log(result)
+/*-----------------------------------*/
+const doubleMap=(number)=>{
+return number.map(number => number**2)
+}
+console.log(doubleMap([10, 6, 31, 4]))
+
+/*------------------FILTER--------------*/
+
+const filter = (number, greaterThan) => {
+  let res = [];
+  for (const num of number) {
+    if (num > greaterThan) {
+      res.push(num);
+    }
+  }
+  return res;
+};
+console.log(filter([1, 2, 3, 4, 5, 6], 3))
+/*------------------------------------------*/
+let nums = [22, 11, 34, 43, 81, 63, 72, 99];
+console.log(nums.filter(nums => nums>=34 && nums<=99))
+console.log(nums.filter(nums => nums > 43 || nums < 34))
+
+/*--------------------------------------------*/
+
+const actors = [
+  { name: 'johny depp', NetWorth: 130000 },
+  {name: 'Amber Heard', NetWorth: 100},
+  {name: 'Leaonardo Di Caprio', NetWorth: 34009000}
+]
+console.log(actors.map(actors => actors.NetWorth))
+console.log(actors.map(actors => actors.name))
+console.log(actors.filter(actors => actors.NetWorth > 100))
+
+
+/*-----------------REDUCE----------------*/
+// Reduce() usually used in adding or in sum use cases
+let ans=1
+const number = [3, 2, 4, 5]
+for(const num of number){
+    ans*=num
+}
+console.log(ans)
+
+
+function multiply(a, b){
+    return a*b
+}
+const num = [2, 3, 4, 6]
+console.log(actors.reduce((a, b) => a+b.NetWorth,0))

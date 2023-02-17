@@ -52,3 +52,21 @@ function multiply(a, b){
 }
 const num = [2, 3, 4, 6]
 console.log(actors.reduce((a, b) => a+b.NetWorth,0))
+
+
+--------------------**********************----------------------
+
+
+name = 'shubham'
+console.log(Array.from(name))
+
+for(let i of name){
+  console.log(i)
+}
+
+console.log("\n")
+
+
+for(let i in name){
+  console.log(i+' ')
+}

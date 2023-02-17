@@ -60,13 +60,15 @@ console.log(actors.reduce((a, b) => a+b.NetWorth,0))
 name = 'shubham'
 console.log(Array.from(name))
 
+//For.......Of
 for(let i of name){
   console.log(i)
 }
 
+//Line break
 console.log("\n")
 
-
+//For....IN
 for(let i in name){
   console.log(i+' ')
 }

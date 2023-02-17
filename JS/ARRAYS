@@ -15,3 +15,29 @@ console.log(gr)
 console.log(gr.slice(3, 6))
 console.log(gr.indexOf('srrr'))
 console.log(gr.length)
+
+
+---------------------------************----------------------
+
+
+a2 = [91, 2, 43, 14, 5, 61, 7, 8, 6]
+a1=[11, 12, 13, 14, 15, 16, 17, 18, 19]
+console.log(a2.length)
+delete(a2[0])
+console.log(a2, a2.length)
+
+// CONCATENATE TWO ARRAYS(a1, a2)
+console.log(a2.concat(a1) + "  ")
+console.log(a2.sort())
+
+// FOR ASCENDING ORDER
+compare = (a, b) => {
+  return a - b
+}
+console.log(a2.sort(compare))
+
+// FOR DESCENDING ORDER
+compare2 = (a, b) =>{
+  return b-a
+}
+console.log(a2.sort(compare2))

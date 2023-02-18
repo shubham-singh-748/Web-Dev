@@ -1,0 +1,13 @@
+console.log('console')
+console.info('info')
+console.error('error')
+console.warn('warn')
+console.assert('err'!=false)
+console.assert('err'==false)
+console.clear()
+
+console.time('forLoop')
+for(let i=0;i<100;++i){
+  console.log(i)
+}
+console.timeEnd('forLoop')

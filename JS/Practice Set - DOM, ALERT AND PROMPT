@@ -1,0 +1,21 @@
+alert('What is your age')
+a = prompt('Enter here')
+a=Number.parseInt(a)
+const isEligible=(a)=>{
+  return a>=18?true:false
+}
+if(isEligible(a)) {
+  alert("Of couse he/she can drive")
+}
+else{
+  alert("sorry, not eligible")
+}
+
+alert('Enter a number')
+a=prompt('')
+a=Number.parseInt(a)
+if(a>4){
+  location.href='https://www.instagram.com'
+}
+let color = prompt('Enter the background color you want')
+document.body.style.background = color

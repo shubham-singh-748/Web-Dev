@@ -1,0 +1,11 @@
+alert('Enter the value of a')
+a = prompt('Enter a here')
+a=Number.parseInt(a)
+alert('Your entered a type is '+typeof a)
+write = confirm('do you want to write it to the page')
+if(write){
+document.write(a)
+}
+else {
+  document.write('please allow me to write')
+}

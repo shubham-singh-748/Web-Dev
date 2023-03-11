@@ -1,0 +1,22 @@
+setTimeout(() => {
+  console.log("Hacking wifi..... Please wait");
+}, 2000);
+
+try {
+  console.log(shubham);
+} 
+catch (error) {
+    console.log('get stuck')
+}
+
+setTimeout(() => {
+  console.log("Fetching username and password....Please wait...");
+}, 4000);
+
+setTimeout(() => {
+  console.log("Hacking is under in progress just wait a little bit more");
+}, 5000);
+
+setTimeout(() => {
+  console.log("Done, finally you get success in hacking. Hurray!");
+}, 7000);

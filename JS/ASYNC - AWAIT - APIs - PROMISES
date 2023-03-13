@@ -1,0 +1,75 @@
+//First way;
+const waitingforsoup = () => console.log('here is your soup')
+setTimeout(waitingforsoup, 2000)
+
+//Second way;
+const hereisyoursoup=()=>{
+    setTimeout(() => {
+        console.log("here is your soup")
+    }, 4000);
+}
+hereisyoursoup()
+
+/*--------------------Understanding Promises---------------------------*/
+// First way shows same output
+let pr1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    isReady = false;
+    isReady ? console.log("Your soup is ready") : console.log("No soup today");
+  }, 3000);
+});
+
+//Second way shows same output
+let pr2 = new Promise((resolve, reject)=>{
+    setTimeout(() => {
+        isReady=false
+    isReady? console.log('Your soup is ready'): console.log('No soup today')}, 3000);
+})
+console.log(pr2.then(value=>console.log(value)))
+
+// Third way shows same output in objects
+let pr3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    // isReady = [true, false][Math.floor(Math.random * 2)];
+    isReady = true
+    isReady ? resolve("Your soup is ready") : reject("No soup today");
+    resolve('Good Service and tip to waiter')
+  }, 1000);
+});
+console.log(
+  pr3
+    .then((success) => console.log({ success }))
+    .catch((error) => console.log({ error }))
+);
+
+/*-----------------------ASYNC/AWAIT----------------------*/
+// Rules for using async / await
+// 1. You must create a function
+// 2. You must use the keyword async
+// 3. Use the word await
+const getkutta = async () =>{
+    const url = 'https://dog.ceo/api/breeds/image/random'
+    const response = await fetch(url)
+    const data = await response.json()
+    console.log(data)
+}
+getkutta()
+
+const getsoup = async () => {
+  try {
+    const soup = await pr3;
+    console.log(soup);
+    console.log('The service was good')
+    console.log('Tip to waiter')
+  } catch (error) {
+    console.log(error);
+    console.log('Service was trashed')
+    console.log('No tip')
+  }
+};
+getsoup();
+
+const sum1 = async(a, b) => a+b
+console.log(setTimeout(() => {
+  sum1(985, 342).then((value) => console.log(value));
+}, 7000))

@@ -1,0 +1,63 @@
+// Methods:-
+// Any function (i.e., "sr()") that need a dot(".") called Methods.
+// Exapmle = (".function()") is an Exapmle of Methods.
+
+// Property:-
+// Property is nothing but it shows properties or quality of an variable.
+// Like car.color="red", car.name="ferrari", etc...
+
+// classes:-
+// classes is similar to objects.
+// We will learn it deeply
+class car {
+  constructor(name, color, currSpeed) {
+    this.name = name;
+    this.color = color;
+    this.currSpeed = currSpeed;
+  }
+  drive() {
+    console.log("Speeding up the car");
+    this.currSpeed += 10;
+  }
+
+  brake() {
+    console.log("slowing down the car");
+    this.currSpeed -= 10;
+  }
+
+  stop() {
+    console.log("Stop the car");
+    this.currSpeed = 0;
+  }
+}
+
+const ferrari = new car("ferrai", "red", 250);
+
+console.log(ferrari);
+console.log(ferrari.name);
+console.log(ferrari.color);
+console.log(ferrari.currSpeed);
+ferrari.drive();
+ferrari.drive()
+ferrari.drive()
+console.log(ferrari.currSpeed)
+ferrari.brake();
+console.log(ferrari.currSpeed)
+ferrari.stop()
+console.log(ferrari.currSpeed)
+
+console.log()
+
+const Porsche = new car('porsche', 'yellow', 280)
+console.log(Porsche)
+Porsche.brake()
+console.log(Porsche.currSpeed)
+console.log(Porsche.color)
+
+Array.prototype.myPush = function (item) {
+  this[6] ='orange'
+  return this
+};
+
+const fruits = ["banana", "apple", "gauva", "pineapple", "grapes", 'cookie'];
+console.log(fruits.myPush("cookie"));
